@@ -143,12 +143,52 @@ margin:116px 145px ;
   }
   .main-box{
     display: flex;
-    justify-content: center;flex-wrap: wrap;
+    justify-content: center;
     margin-top: 20px;
+
   }
   .box{
  line-height: 0;
   }
 h3{
     font-size: 2em;
+}
+
+ form input[type="text"],input[type="email"],textarea{
+    height: 30px;
+    border-radius: 5px;
+  width: 93%;
+    display: block;
+  margin-bottom: 24px;
+  border: none; 
+  padding: 10px 20px;
+  border: none;
+ 
+}
+.touch-section-part{
+    display: flex;
+    justify-content: space-around;
+    padding: 116px 140px;
+
+  align-items: center;
+    padding: 116px 140px;
+    background-color: rgba(78, 71, 255, 0.1);
+height: 300px;
+margin: 170px;
+ 
+}
+.touch-section-part h1{
+font-size: 3em;
+}
+.touch-btn{
+    height: 62px;
+    width: 497px;
+    font-size: 16px;
+}
+textarea{
+    width: 497px;
+    height: 135px;
+}
+form label{
+   font-weight: 600;
 }
