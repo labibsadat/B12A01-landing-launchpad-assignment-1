@@ -128,7 +128,7 @@ margin:116px 145px ;
 background-color: rgba(78, 71, 255, 0.1);
 margin:116px 145px ;
   }
-  div .box p{
+  div .box p, .footer-sub-title, {
     color: rgba(37, 36, 50, 0.5);
   
   }
@@ -191,4 +191,48 @@ textarea{
 }
 form label{
    font-weight: 600;
+ 
+}
+.footer-box a{
+    text-decoration: none;
+ 
+      color: rgba(37, 36, 50, 0.5);
+
+}
+.footer-main-box{
+    list-style-type: none;
+    
+}
+.footer-title{
+    font-size: 5em;
+    font-weight: 800;
+     color: rgba(78, 71, 255, 1);
+     margin-bottom: 0px;
+
+}
+.footer-section{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+align-items: center;
+}
+.footer-box{
+    display: inline-block;
+    margin: 0 15px;
+}
+.footer-sub-title{
+    width: 500px;
+   
+}
+.footer-section{
+ width: auto;
+
+    padding: 30px;
+}
+button:hover{
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 12px rgb(233, 202, 202);
+   color:rgb(28, 29, 26);
+    background-color: rgb(53, 181, 181);
 }
