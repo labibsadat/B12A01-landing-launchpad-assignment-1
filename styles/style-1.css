@@ -193,6 +193,13 @@ form label{
  
 }
 /* review section */
+.user-rivew{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
 .review-section{
   height: 300px;
 margin: 170px;
