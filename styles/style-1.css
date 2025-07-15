@@ -123,14 +123,13 @@ margin:116px 145px ;
     width: 405px;
   }
   .productive-section{
-      width: ;
+     
   height: 300px;
 background-color: rgba(78, 71, 255, 0.1);
 margin:116px 145px ;
   }
-  div .box p, .footer-sub-title, {
-    color: rgba(37, 36, 50, 0.5);
-  
+ .productive-section div .box p, .footer-sub-title {
+color: rgba(37, 36, 50, 0.5);
   }
   .box h1{
   font-size: 5em;
