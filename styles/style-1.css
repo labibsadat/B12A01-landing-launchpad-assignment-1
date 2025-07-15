@@ -168,7 +168,7 @@ h3{
 .touch-section-part{
     display: flex;
     justify-content: space-around;
-    padding: 116px 140px;
+  
 
   align-items: center;
     padding: 116px 140px;
@@ -193,6 +193,51 @@ form label{
    font-weight: 600;
  
 }
+/* review section */
+.review-section{
+  height: 300px;
+margin: 170px;
+       background-color: rgba(78, 71, 255, 0.1);
+     
+       padding: 50px;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+
+}
+.second-part-review{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+ 
+
+}
+.image-icon{
+    width: 40px;
+    height: 40px;
+   
+}
+.icon-img-title{
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin: 0;
+ line-height: 0;
+ margin-top: 0px;
+ 
+}
+.icon-img-title h4{
+margin-bottom: 1px;
+margin-top: 2px;
+}
+
+
+
+
+/* footer section */
 .footer-box a{
     text-decoration: none;
  
@@ -215,6 +260,10 @@ form label{
     flex-direction:column ;
     justify-content: center;
 align-items: center;
+height: 300px;
+margin: 170px;
+
+
 }
 .footer-box{
     display: inline-block;
